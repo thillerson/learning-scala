@@ -7,6 +7,6 @@ object UpperToo {
 object secundus {
   
   def main(args:Array[String]):Unit = {
-    Console.println(UpperToo.upper("my", "second", "scala", "program"))
+    println(UpperToo.upper("my", "second", "scala", "program"))
   }
 }
