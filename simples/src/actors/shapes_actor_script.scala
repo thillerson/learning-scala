@@ -1,4 +1,4 @@
-package shapes
+package actors
 
 object shapes_actor_script {
   def main(args : Array[String]) : Unit = {

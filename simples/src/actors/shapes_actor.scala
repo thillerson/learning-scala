@@ -1,4 +1,4 @@
-package shapes {
+package actors {
 
   import scala.actors._
   import scala.actors.Actor._

@@ -1,4 +1,4 @@
-package shapes {
+package actors {
 
   case class Point(x:Double, y:Double)
   
