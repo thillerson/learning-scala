@@ -22,5 +22,5 @@ class FileBulkReader(val source:File) extends BulkReader[File] {
 }
   
 
-println(new StringBulkReader("Hello Scala!").read)
-println(new FileBulkReader(new File("./abstract_type_as_parameterized_type.scala")).read)
+//println(new StringBulkReader("Hello Scala!").read)
+//println(new FileBulkReader(new File("./abstract_type_as_parameterized_type.scala")).read)
