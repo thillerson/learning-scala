@@ -66,6 +66,20 @@ object pattern_matching {
         case p						=> println("found some other dork: " + p toString)
       }
     }
+    
+    // exceptions
+    import java.util.Calendar
+    val then = null
+    val now = Calendar getInstance
+      
+    try {
+      now compareTo then
+    } catch {
+      case e:NullPointerException	=> println("the dreaded NPE!"); System.exit(-1)
+      case other					=> println("not sure what happened"); System.exit(-1)
+    } finally {
+      println("finally!")
+    }
   }
   
 }
