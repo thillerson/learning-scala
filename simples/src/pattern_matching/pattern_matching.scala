@@ -67,6 +67,13 @@ object pattern_matching {
       }
     }
     
+    for (person <- List(alice, bob, charlie)) {
+      person match {
+        case Person(name, age) if age == 32	=> println("found a 32 year old: " + name)
+        case _								=> 
+      }
+    }
+    
     // exceptions
     import java.util.Calendar
     val then = null
